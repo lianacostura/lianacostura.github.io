@@ -1,3 +1,76 @@
 {
-  "produtos": []
+  "produtos": [
+    {
+      "nome": "Máquina de Costura Singer 1300 Overloque",
+      "nota": "O acabamento que fecha a barra por dentro",
+      "foto": "https://down-bs-br.img.susercontent.com/sg-11134201-7rcdt-lsd4s2pmiaz753.webp",
+      "link": "https://s.shopee.com.br/9KjUJ4PKri",
+      "categoria": "Máquinas",
+      "data": "2026-11-09",
+      "destaque": true
+    },
+    {
+      "nome": "Agulha Singer 2026 nº 100/16 para jeans",
+      "nota": "A que atravessa o cós do jeans sem entortar",
+      "foto": "https://down-bs-br.img.susercontent.com/f01fac7b723a30ec9fafd4cd712bd63a.webp",
+      "link": "https://s.shopee.com.br/8fTnVS6hWf",
+      "categoria": "Agulhas e calcadores",
+      "data": "2026-11-09",
+      "destaque": false
+    },
+    {
+      "nome": "Kit de calcadores 42 peças",
+      "nota": "Um calcador pra cada costura que a máquina já sabia fazer",
+      "foto": "https://down-bs-br.img.susercontent.com/br-11134207-81z1k-meqtwk26vwg0a6.webp",
+      "link": "https://s.shopee.com.br/6q29K9KS3g",
+      "categoria": "Agulhas e calcadores",
+      "data": "2026-11-09",
+      "destaque": false
+    },
+    {
+      "nome": "Tesoura de alfaiate dourada 24 cm",
+      "nota": "Corte limpo: tesoura que só vê tecido",
+      "foto": "https://down-bs-br.img.susercontent.com/cn-11134207-820l4-mqx08ya094ox44.webp",
+      "link": "https://s.shopee.com.br/2LZjxwEJR9",
+      "categoria": "Corte e medida",
+      "data": "2026-11-09",
+      "destaque": false
+    },
+    {
+      "nome": "Kit 2 fitas métricas 150 cm com pote",
+      "nota": "Medir antes de cortar é o passo que ninguém pula",
+      "foto": "https://down-bs-br.img.susercontent.com/br-11134207-820lj-mt49hza4q6me9e.webp",
+      "link": "https://s.shopee.com.br/2BGJlgUzSp",
+      "categoria": "Corte e medida",
+      "data": "2026-11-09",
+      "destaque": false
+    },
+    {
+      "nome": "Abridor de casas – kit com 2",
+      "nota": "Pra desmanchar a costura sem rasgar a peça",
+      "foto": "https://down-bs-br.img.susercontent.com/br-11134201-820lr-msqglhi4ne9z47.webp",
+      "link": "https://s.shopee.com.br/9fMKhbH9KY",
+      "categoria": "Corte e medida",
+      "data": "2026-11-09",
+      "destaque": false
+    },
+    {
+      "nome": "Alfineteiro magnético com alfinetes",
+      "nota": "Alfinete que não some no chão do ateliê",
+      "foto": "https://down-bs-br.img.susercontent.com/br-11134207-7r98o-m3gslczqa6sb79.webp",
+      "link": "https://s.shopee.com.br/9AQ46auKXO",
+      "categoria": "Linhas e aviamentos",
+      "data": "2026-11-09",
+      "destaque": false
+    },
+    {
+      "nome": "Kit 10 retrós de linha colorida",
+      "nota": "Pra não parar no meio da peça por falta de cor",
+      "foto": "https://down-bs-br.img.susercontent.com/br-11134207-7r98o-lzaerdt9eckl94.webp",
+      "link": "https://s.shopee.com.br/5AtvLHMIFF",
+      "categoria": "Linhas e aviamentos",
+      "data": "2026-11-09",
+      "destaque": false
+    }
+  ]
 }
