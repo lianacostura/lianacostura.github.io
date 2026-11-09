@@ -33,3 +33,6 @@ Máquinas · Agulhas e calcadores · Corte e medida · Linhas e aviamentos
 - Só link de afiliado do painel. Nunca produto da Vênus aqui.
 - A `nota` pode ligar o produto à história ("a agulha que quebrou no cós"), sem dizer que a Lia
   é uma pessoa real usando o produto.
+
+## Produtos no ar (09/11/2026)
+Overloque Singer 1300 (destaque) · agulha Singer 100/16 jeans · kit 42 calcadores · tesoura de alfaiate 24 cm · 2 fitas métricas · abridor de casas (2) · alfineteiro magnético · 10 retrós coloridos. Links gerados pelo Claude com Chrome no painel da conta venus.bordado; fotos = imagem do anúncio na Shopee.
