@@ -1,0 +1,100 @@
+:root {
+  --fundo: #FFF3E0;
+  --cartao: #FFFFFF;
+  --traco: #3A251C;
+  --vinho: #6D2E46;
+  --blusa: #E07A5F;
+  --mostarda: #F2B134;
+  --verde: #2A9D8F;
+  --suave: #7A5A4B;
+  --raio: 18px;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--fundo);
+  color: var(--traco);
+  font-family: "Montserrat", system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.pagina { max-width: 960px; margin: 0 auto; padding: 32px 16px 24px; }
+
+/* topo */
+.topo { text-align: center; max-width: 460px; margin: 0 auto 36px; }
+.foto {
+  width: 112px; height: 112px; display: block; margin: 0 auto 14px;
+  border-radius: 50%; border: 4px solid var(--traco); box-shadow: 0 5px 0 var(--traco);
+  background: var(--mostarda);
+}
+h1, h2 { font-weight: 900; margin: 0; letter-spacing: -0.01em; }
+h1 { font-size: 30px; }
+.handle { margin: 0 0 10px; color: var(--vinho); font-weight: 700; font-size: 15px; }
+.bio { margin: 0 auto 16px; color: var(--suave); max-width: 32ch; font-weight: 500; }
+
+.meta {
+  display: inline-flex; flex-direction: column; align-items: center;
+  background: var(--mostarda); border: 3px solid var(--traco); border-radius: 14px;
+  box-shadow: 0 4px 0 var(--traco); padding: 6px 18px; margin: 0 0 22px;
+  transform: rotate(-1.5deg);
+}
+.meta-rotulo { font-size: 11px; font-weight: 800; letter-spacing: 0.08em; }
+.meta-valor { font-size: 17px; font-weight: 900; }
+
+.redes { display: grid; gap: 12px; }
+.botao {
+  display: flex; align-items: center; justify-content: center;
+  min-height: 52px; padding: 0 20px;
+  border: 3px solid var(--traco); border-radius: 999px;
+  background: var(--cartao); color: var(--traco); text-decoration: none;
+  font-weight: 800; font-size: 16px;
+  box-shadow: 0 4px 0 var(--traco);
+  transition: transform .12s, box-shadow .12s;
+}
+.botao:hover, .botao:focus-visible { transform: translateY(2px); box-shadow: 0 2px 0 var(--traco); }
+.botao-cheio { background: var(--vinho); color: #fff; }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--verde); outline-offset: 3px; }
+
+/* vitrine */
+.vitrine h2 { font-size: 26px; text-align: center; }
+.sub { text-align: center; margin: 2px 0 18px; color: var(--suave); font-weight: 600; font-size: 14px; }
+.filtros { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-bottom: 20px; }
+.filtro {
+  min-height: 44px; padding: 0 16px; border-radius: 999px;
+  border: 2px solid var(--traco); background: var(--cartao); color: var(--traco);
+  font: 700 14px "Montserrat", sans-serif; cursor: pointer;
+}
+.filtro[aria-pressed="true"] { background: var(--verde); color: #fff; }
+.cards {
+  list-style: none; margin: 0 auto; padding: 0; max-width: 720px;
+  display: grid; gap: 16px 10px; grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@media (min-width: 520px) { .cards { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 760px) { .cards { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px 14px; } }
+.tile {
+  display: flex; flex-direction: column; height: 100%;
+  background: var(--cartao); border: 3px solid var(--traco); border-radius: var(--raio);
+  box-shadow: 0 4px 0 var(--traco); overflow: hidden;
+  color: var(--traco); text-decoration: none;
+  transition: transform .12s, box-shadow .12s;
+}
+.tile:hover, .tile:focus-visible { transform: translateY(2px); box-shadow: 0 2px 0 var(--traco); }
+.tile img {
+  width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; display: block;
+  background: #fff; border-bottom: 3px solid var(--traco);
+}
+.tile .nome {
+  padding: 8px 10px 0; font-size: 13px; line-height: 1.3; font-weight: 700;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
+.tile .nota { padding: 2px 10px 0; font-size: 11.5px; color: var(--suave); font-weight: 500; line-height: 1.3; }
+.tile .ver {
+  margin: auto 10px 10px; padding-top: 8px; font-size: 12px; font-weight: 800; color: var(--blusa);
+}
+.vazio { text-align: center; color: var(--suave); padding: 24px 0; font-weight: 600; }
+
+/* rodape */
+.rodape { margin-top: 44px; padding-top: 18px; border-top: 2px dashed var(--suave); text-align: center; color: var(--suave); font-size: 12.5px; }
+.rodape p { margin: 0 auto 6px; max-width: 52ch; }
+.assinatura { color: var(--vinho); font-weight: 700; }
